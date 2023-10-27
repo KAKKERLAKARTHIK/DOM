@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        pre{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="hello">hello world....!</h1>
+    <h1 id="hello">hello world...!</h1>
+    <p id="hello" style="font-size:10px;">hello world..!</p>
+  <h1 id="hello">hello world....!</h1>
+  <img src="./ncsa-homepage-row-2022.webp" alt=""width="100%" >
+
+<button onclick="add()">lavan</button> -->
+
+<img src="./images.jpg" alt="" id="kakkerla">
+<button onclick="add11()">click</button>
+
+<center><h1>MCQ</h1></center>
+
+
+<pre style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" >
+1. Which loop in JavaScript is used for executing a block of code a specified number of times?
+
+   A) `while` loop
+     B) `do...while` loop
+     C) `for` loop
+     D) `if` loop</pre>
+   <button id="mybtn" onclick="add()"> click to Answer</button>
+   <p id="pp"></p>
+   <hr>
+<pre>
+2. What is the primary purpose of a loop in programming?
+
+   A) To create objects
+   B) To execute code repeatedly
+   C) To define functions
+   D) To declare variables</pre>
+   <button id="2nd" onclick="sum()">click to Answer</button>
+<p id="2ndp"></p><hr>
+<pre>
+3. In a `for` loop, what does the initialization statement do?
+
+   A) Defines the loop condition
+   B) Executes the loop body
+   C) Initializes the loop counter
+   D) Terminates the loop
+</pre>
+<button id="karthik"> click to Answer</button>
+<p id="kkk"></p>
+<hr>
+<pre>
+4. Which loop runs the loop body at least once before checking the loop condition?
+
+   A) `while` loop
+   B) `for` loop
+   C) `do...while` loop
+   D) `if` loop
+</pre>
+<button id="karthik1">click to Answer</button>
+<p id="kk"></p>
+<hr>
+<pre>
+5. How can you exit a loop prematurely in JavaScript?
+
+   A) Using the `break` statement
+   B) Using the `continue` statement
+   C) Using the `return` statement
+   D) Using the `exit` statement
+</pre>
+<button id="karthik2"> click to Answer</button>
+<p id="kkkk"></p>
+<hr>
+<pre>
+6. What is the result of the following code:
+
+   ```javascript
+   for (let i = 0; i < 5; i++) {
+       if (i === 3) {
+           continue;
+       }
+       console.log(i);
+   }
+   ```
+
+   A) 0 1 2
+   B) 0 1 2 3 4
+   C) 1 2 4
+   D) 0 1 4
+</pre>
+<button id="karthik3"> click to Answer</button>
+<p id="kkkkk"></p><hr>
+<pre>
+7. Which loop is best suited for situations where you want to execute a block of code until a specific condition is met?
+
+   A) `for` loop
+   B) `while` loop
+   C) `do...while` loop
+   D) `if` loop
+</pre>
+<button id="karthik4"> click to Answer</button><p id="kkkkkk"></p>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+//  var a=document.querySelectorAll("#hello")
+ 
+//  for (i=0;i<a.length;i++){
+//     a[i].innerHTML="<h1>karthik</h1>" 
+    // console.log(   (a[i].innerText)="karthik");
+
+//  }
+// console.log();
+//  let imgg=document.querySelector("img")
+// console.log(imgg);
+// console.log(imgg.getAttribute("src"));
+// imgg.setAttribute("src","images.jpg")
+// imgg.setAttribute("id","karthik")
+// imgg.style.visibility="hidde"
+
+ function add11(){  
+     imgg= document.getElementById("kakkerla");
+      imgg.src="ncsa-homepage-row-2022.webp";
+     imgg.style.width="100%"
+          }
+
+function add(){
+    document.getElementById("mybtn")
+    document.getElementById("pp").innerHTML="correct ans is c"
+}
+function sum(){
+document.getElementById("2nd")
+document.getElementById("2ndp").innerHTML="correct ans is b"
+}
+let a=document.getElementById("karthik")
+a.addEventListener("click" ,function(){
+document.getElementById("kkk").innerHTML="correct ans is c"
+})
+let b=document.getElementById("karthik1")
+b.addEventListener("click" ,function(){
+document.getElementById("kk").innerHTML="correct ans is c"
+})
+let c=document.getElementById("karthik2")
+c.addEventListener("click" ,function(){
+document.getElementById("kkkk").innerHTML="correct ans is a"
+})
+let d=document.getElementById("karthik3")
+d.addEventListener("click" ,function(){
+document.getElementById("kkkkk").innerHTML="correct ans is 0124"
+})
+let e=document.getElementById("karthik4")
+e.addEventListener("click" ,function(){
+document.getElementById("kkkkkk").innerHTML="correct ans is b"
+})
+
+    </script>
+    
+</body>
+</html>
